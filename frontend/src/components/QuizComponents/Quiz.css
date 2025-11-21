@@ -1,0 +1,59 @@
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background-color: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.container ul li {
+  /* display flex de bo dau cham dau cau */
+  display: flex;
+  align-items: center;
+  border: 1px solid #686868;
+  height: 70px;
+  /* padding là khoảng cách riêng của element so với hộp của nó */
+  padding-left: 15px;
+  border-radius: 8px;
+  /* margin là khoảng cách giữa các element li */
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: #D8C7FF;  
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+
+
+
+}
+
+.index{
+    font-size: 18px;
+    margin: auto;
+
+}
