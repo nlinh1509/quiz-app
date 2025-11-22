@@ -37,23 +37,30 @@
   cursor: pointer;
 }
 
-.container button{
-    margin: auto;
-    width: 250px;
-    height: 65px;
-    background-color: #D8C7FF;  
-    color: black;
-    font-weight: 500;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 20px;
-
-
-
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background-color: #d8c7ff;
+  color: black;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid grey;
 }
 
-.index{
-    font-size: 18px;
-    margin: auto;
+.index {
+  font-size: 18px;
+  margin: auto;
+}
 
+.container .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.container .wrong{
+  background: #ffebeb;
+  border-color: #ff4a4a;
 }
